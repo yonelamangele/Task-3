@@ -4,21 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/styles.css">
-    <title>Document</title>
+    <title> YM Calculator </title>
 </head>
 <body>
 
-    <table>
+   
+
+    <div class="container">
+        <input type="text" class="display">
+
+        <div class="buttons">
+            <button class="operator" data-value="AC"> AC </button>
+            <button class="operator" data-value="DEL"> DEL </button>
+            <button class="operator" data-value="%"> % </button>
+            <button class="operator" data-value="/"> / </button>
+            
+            <button data-value="7"> 7 </button>
+            <button data-value="8"> 8 </button>
+            <button data-value="9"> 9 </button>
+            <button class="operator" data-value="*"> * </button>
+            
+            <button data-value="4"> 4 </button>
+            <button data-value="5"> 5 </button>
+            <button data-value="6"> 6 </button>
+            <button class="operator" data-value="-"> - </button>
+            
+            <button data-value="1"> 1 </button>
+            <button data-value="2"> 2 </button>
+            <button data-value="3"> 3 </button>
+            <button class="operator" data-value="+"> + </button>
+            
+            <button data-value="0"> 0 </button>
+            <button data-value="00"> 00 </button>
+            <button data-value="."> . </button>
+            <button class="operator" data-value="="> = </button>
+        </div>
+    </div>
+    <!-- <table>
         <tr>
             <td colspan="3">
-                <input type="text" id="result">
+                <input type="text" id="result" readonly>
             </td>
             <td>
                 <input type="button" value="c">
             </td>
         </tr>
         
-        <tr>
+        <tr class="one">
             <td> <input type="button" value="1"> </td>
             <td> <input type="button" value="2"> </td>
             <td> <input type="button" value="3"> </td>
@@ -45,7 +77,9 @@
             <td> <input type="button" value="="> </td>
             <td> <input type="button" value="+"> </td>
         </tr>
-    </table>
-    
+    </table> -->
+
+     
+    <script src="./SCRIPT/calc.js"></script>
 </body>
 </html>
